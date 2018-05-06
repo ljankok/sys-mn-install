@@ -9,7 +9,7 @@ https://medium.com/@BlockchainFoundry/syscoin-3-0-masternode-setup-instructions-
 
 To fix locale issue, you may want to run the following before running the Masternode Install Script:
 
-```bash <( curl https://raw.githubusercontent.com/ljankok/sys-mn-install/master/fix-locale.sh )
+```bash <( curl https://raw.githubusercontent.com/ljankok/sys-mn-install/master/fix-locale.sh )```
 
 To install your masternode issue the following command on your VPS:
 
