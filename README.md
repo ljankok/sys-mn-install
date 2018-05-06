@@ -2,6 +2,8 @@
 
 ## Syscoin Interactive Install
 
+This is the Syscoin Interactive Masternode Install script. 
+
 This Masternode install script is based on the Bulwark masternode install script created by the Bulwark team.
 
 The steps the instal script takes are mostly based on this article:
