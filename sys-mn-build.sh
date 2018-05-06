@@ -246,7 +246,8 @@ EOL
 systemctl enable syscoind &&
 systemctl start syscoind
 
-sleep 15
+echo "Hold on... "
+sleep 60
 
 # Show the syscoind status
 echo $STRING9
