@@ -309,7 +309,7 @@ read -p "Press any key to continue but only after you have completed the above s
 # Check Masternode Status
 su -c "/usr/local/bin/syscoin-cli masternode status" $USER
 
-pause 10
+sleep 10
 
 # Set sentinel in crontab
 (
