@@ -183,7 +183,7 @@ cd syscoin
 # Build Syscoin Core from sources
 su -c "$USERHOME/buildsys/syscoin/autogen.sh" $USER &&
 su -c "$USERHOME/buildsys/syscoin/configure" $USER &&
-su -c "make" $USER &&
+su -c "make -j$(nproc) -pipe" $USER
 make install
 
 echo $STRING9
