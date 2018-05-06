@@ -243,7 +243,7 @@ WantedBy=multi-user.target
 EOL
 
 # Enable and start syscoind via systemctl
-systemctl enable syscoind
+systemctl enable syscoind &&
 systemctl start syscoind
 
 sleep 15
