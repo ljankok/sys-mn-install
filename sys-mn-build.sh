@@ -184,6 +184,7 @@ cd syscoin
 su -c "$USERHOME/buildsys/syscoin/autogen.sh" $USER &&
 su -c "$USERHOME/buildsys/syscoin/configure" $USER &&
 su -c "make" $USER &&
+make install
 
 echo $STRING9
 echo "Syscoin Build completed"
@@ -193,11 +194,6 @@ echo $STRING9
 read -p "The syscoin binaries have been compiled. Press any key to proceed... " -n1 -s
 
 echo $STRING9
-
-cp $USERHOME/buildsys/syscoin/src/syscoind /usr/local/bin/
-cp $USERHOME/buildsys/syscoin/src/syscoin-cli /usr/local/bin/
-chmod 0555 /usr/local/bin/syscoind
-chmod 0555 /usr/local/bin/syscoin-cli
 
 # Setup Syscoin core configuration
 su -c "mkdir  $USERHOME/.syscoincore" $USER
