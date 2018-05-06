@@ -6,8 +6,7 @@ This is the Syscoin Interactive Guided Masternode Install script.
 
 This Masternode install script is based on the Bulwark masternode install script created by the [Bulwark team](https://github.com/bulwark-crypto/Bulwark-MN-Install)
 
-The steps the instal script takes are mostly based on this article:
-``https://medium.com/@BlockchainFoundry/syscoin-3-0-masternode-setup-instructions-572576c7163f``
+The steps the instal script takes are mostly based on the articleof [Johnp](https://medium.com/@BlockchainFoundry/syscoin-3-0-masternode-setup-instructions-572576c7163f)
 
 To fix the locale settings on your VPS, you may want to run the following before running the Masternode Install Script:
 
