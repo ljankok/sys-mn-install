@@ -1,6 +1,6 @@
 # sys-mn-install
 
-##Syscoin Interactive Install
+## Syscoin Interactive Install
 
 This Masternode install script is based on the Bulwark masternode install script created by the Bulwark team.
 
