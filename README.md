@@ -1,6 +1,6 @@
 # sys-mn-install
 
-## Syscoin Interactive Install
+## Syscoin Guided Interactive Install
 
 This is the Syscoin Interactive Guided Masternode Install script. 
 
