@@ -246,12 +246,14 @@ EOL
 systemctl enable syscoind
 systemctl start syscoind
 
+sleep 5
+
 # Show the syscoind status
 echo $STRING9
 echo $STRING9
 su -c "/usr/local/bin/syscoin-cli getinfo" $USER
 
-sleep 6
+sleep 5
 
 clear
 
