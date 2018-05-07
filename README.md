@@ -1,8 +1,8 @@
 # sys-mn-install
 
-## Syscoin Guided Interactive Install
+## Syscoin Masternode Guided Install
 
-This is the Syscoin Interactive Guided Masternode Install script.  I made this script primarily for my own personal use.
+This is the Syscoin Guided Masternode Install script.  I made this script primarily for my own personal use.
 
 This Masternode install script is based on the Bulwark masternode install script created by the [Bulwark team](https://github.com/bulwark-crypto/Bulwark-MN-Install)
 
