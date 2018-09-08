@@ -14,10 +14,6 @@ locale-gen en_US
 echo 'LANGUAGE="en_US.utf8"' >> /etc/default/locale
 echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale
 
-echo ""
-read -p "Don't forget to logout and login back to have your locale set correctly. " -n1 -s
-echo ""
-
 # Next we increase the max number of open files the server can handle
 cat >> /etc/sysctl.conf << EOL
 fs.file-max = 8192
@@ -39,3 +35,7 @@ EOL
 cat >> /etc/pam.d/common-session << EOL
 session required pam_limits.so
 EOL
+
+echo ""
+read -p "Don't forget to logout and login back to have your locale set correctly. " -n1 -s
+echo ""
